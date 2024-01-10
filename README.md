@@ -26,7 +26,7 @@ Create a firebase account in order to gain access to [firestore database](https:
   ```bash
   npm install algoliasearch
   ```
-3. Install and manage the [Chrome extension]((https://support.google.com/chrome_webstore/answer/2664769?hl=en)).
+3. Install and manage the [Chrome extension](https://support.google.com/chrome_webstore/answer/2664769?hl=en).
 
 ## License
 
