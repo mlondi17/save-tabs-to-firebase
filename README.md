@@ -18,8 +18,6 @@ Create a firebase account in order to gain access to [firestore database](https:
 
 ### Installation 
 
-After installing Docker and acquiring the necessary API keys:
-
 1. After setting up your project in firebase go to your terminal and following command in order to install firebase.
   ```bash
   npm install firebase
