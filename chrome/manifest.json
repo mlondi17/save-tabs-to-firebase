@@ -1,0 +1,28 @@
+{
+    "name": "Save open Tabs on Firebase",
+    "description": "Send your open tabs to firebase for processing",
+    "version": "1.1.1",
+    "manifest_version": 3,
+    "permissions": ["tabs", "tabGroups"],
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "/images/icons/icon_16.png",
+            "32": "/images/icons/icon_32.png",
+            "48": "/images/icons/icon_48.png",
+            "128": "/images/icons/icon_128.png"
+        }
+    },
+    "sandbox": {
+		"pages": ["sandbox.html"]
+	},
+    "icons": {
+        "16": "/images/icons/icon_16.png",
+        "32": "/images/icons/icon_32.png",
+        "48": "/images/icons/icon_48.png",
+        "128": "/images/icons/icon_128.png"
+    },
+    "content_security_policy": {
+		"sandbox": "sandbox allow-scripts; script-src 'self' https://www.gstatic.com/ https://*.firebaseio.com https://www.googleapis.com  https://cdn.jsdelivr.net/npm/algoliasearch@4.22.0/dist/algoliasearch.umd.js"
+	}
+}
